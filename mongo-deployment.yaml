@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         #- image: bitnami/mongodb:latest
-      - image: bitnami/mongodb:sha256:7a3e17aff6b43ea9380da8a67ae0412ab111fb5bcb4e5b4c367f8bb8e2900378
+      - image: bitnami/mongodb@sha256:7a3e17aff6b43ea9380da8a67ae0412ab111fb5bcb4e5b4c367f8bb8e2900378
         name: mongo
         ports:
         - name: mongo
